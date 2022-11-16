@@ -1,0 +1,88 @@
+body{
+    background-color: #df3343;
+}
+
+h4{
+    font-size: 20px;
+    font-family: saigonbold, monospace;
+    margin: auto;
+}
+#ulmovil{
+    background-color: rgb(255, 255, 255);
+    width: 230px;
+    height: 220px;
+    display: inline-block;
+    border-radius: 10px;
+    justify-content:center;
+    margin-inline: 2% 1px;
+    padding: 1% 2% 1% 2%;
+    
+}
+
+li{
+    list-style-type: circle;
+    color: gray;
+    margin-left: 30%;
+    text-align: left;
+}
+
+#desc{
+    color: gray;
+}
+
+span{
+    font-size: 12px;
+}
+p{
+    font-family:"Roboto Slab";
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+img{
+    width: 224px;
+    height: 48px;
+}
+
+#m{
+    color: #8da43c;
+}
+
+#fm{
+    color: #df3343;
+}
+
+#f{
+    color: #62a8a8;
+}
+
+*{
+    text-align: center;
+}
+
+#n{
+    color: black;
+    font-family:Verdana;
+    font-size: 11px;
+}
+
+button{
+    background-color: #df3343;
+    width: 120px;
+    height: 35px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-family:"Roboto Slab";
+}
+
+button:hover{
+    background-color: #96111e;
+}
+
+#nombre{
+    margin-left:90%;
+    font-size:8px;
+    text-align: right;
+}
