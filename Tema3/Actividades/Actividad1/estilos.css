@@ -34,10 +34,10 @@ td[colspan="2"],td[colspan="3"]{
     color: white;
 }
 
-#trrojo ~ td{
+#trrojo ~ td,#trrojo{
     color: #ca282e;
+    
 }
-
 #trrojo + td{
-    color: #ca282e;
+    color: black;
 }
