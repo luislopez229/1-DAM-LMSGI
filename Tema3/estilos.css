@@ -1,0 +1,58 @@
+table,tr,td{
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+tr:not(tr:first-child) td:first-child{
+    background-color: orange;
+}
+
+tr:nth-child(5) td:nth-child(2){
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+tr:first-child{
+    font-weight: bold;
+}
+
+tr:first-child td::first-letter{
+    font-size: 200%;
+}
+
+td{
+    text-transform: uppercase;
+}
+
+tr:nth-child(7) td:last-child{
+    background-color: green;
+}
+
+td:last-child:hover{
+    font-size: 200%;
+}
+
+tr:nth-child(2) td:nth-child(2){
+    background-color: red;
+}
+
+input{
+    background-color: pink;
+}
+
+input:focus{
+    background-color: yellow;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: green;
+}
+
+a:visited{
+    color: red;
+}
