@@ -15,13 +15,14 @@ header{
     font-size: 24px;
 }
 
-h1, header{
+h1, header, button,input,a{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: #cf8312;
-    background: linear-gradient(to right, #cf8312 0%, #CF1512 20%);
+    background: linear-gradient(30deg, #cf8312 10%, #CF1512 30%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 hr{
     height: 10px;
@@ -30,11 +31,20 @@ hr{
 }
 
 article{
+    width: 50%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
     background-color: rgb(158, 157, 157);
-    border: 1px rgb(158, 157, 157) solid;
+    border: 2px rgb(158, 157, 157) outset;
     border-radius: 5%;
     margin-top: 2%;
     margin-right: 60%;
+}
+
+article:hover{
+    background-color: rgb(190, 190, 190);
+    border: 3px rgb(158, 157, 157) outset;
 }
 nav{
 
@@ -48,17 +58,14 @@ nav{
 }
 
 a{
-    margin: 1%;
-    padding: 1%;
+    margin-left: 1%;
     border-radius: 10%;
     font-size: 14px;
-    color: white;
-    border: 1px rgb(41, 40, 40) solid;
-    background-color: rgb(0, 0, 0);
     text-decoration: none;
 }
 a:hover{
-    background-color: rgb(230, 78, 23);
+    border:1px rgb(230, 78, 23);
+    border-style: solid solid dotted solid;
 }
 
 form{
