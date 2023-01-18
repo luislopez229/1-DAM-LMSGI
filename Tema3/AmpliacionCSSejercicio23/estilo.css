@@ -1,0 +1,92 @@
+#recuadro1{
+    left:30px;
+    top:30px;
+    text-align: center;
+    position:relative;
+    border-radius: 20px;
+    background-color:#ddd;
+    width:100px;
+    height:100px;
+    padding:4px;
+    -moz-animation-name: animacion1;
+    -moz-animation-duration: 4s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-name: animacion1;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -o-animation-name: animacion1;
+    -o-animation-duration: 4s;
+    -o-animation-iteration-count: infinite;
+    }
+
+    @-moz-keyframes animacion1 { 
+        0%{
+            color:blue;
+        }
+        16.66667%{
+            color:chartreuse;
+        }
+        33.33334%{
+            color:darkorchid;
+        }
+        50.00001%{
+            color:orange;
+        }
+        66.66668%{
+            color:crimson;
+        }
+        83.33335%{
+            color:olivedrab;
+        }
+        100%{
+            color:red;
+        }
+}
+
+@-webkit-keyframes animacion1 { 
+    0%{
+        color:blue;
+    }
+    16.66667%{
+        color:chartreuse;
+    }
+    33.33334%{
+        color:darkorchid;
+    }
+    50.00001%{
+        color:orange;
+    }
+    66.66668%{
+        color:crimson;
+    }
+    83.33335%{
+        color:olivedrab;
+    }
+    100%{
+        color:red;
+    }
+}
+
+@-o-keyframes animacion1 { 
+    0%{
+        color:blue;
+    }
+    16.66667%{
+        color:chartreuse;
+    }
+    33.33334%{
+        color:darkorchid;
+    }
+    50.00001%{
+        color:orange;
+    }
+    66.66668%{
+        color:crimson;
+    }
+    83.33335%{
+        color:olivedrab;
+    }
+    100%{
+        color:red;
+    }
+}
