@@ -5,9 +5,10 @@
     position:relative;
     border-radius: 20px;
     background-color:#ddd;
-    width:100px;
-    height:100px;
-    padding:4px;
+    width:10%;
+    height:10%;
+    padding:10%;
+    margin: 0 auto 0 auto;
     -moz-animation-name: animacion1;
     -moz-animation-duration: 4s;
     -moz-animation-iteration-count: infinite;
