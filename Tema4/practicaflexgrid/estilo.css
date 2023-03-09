@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0 15%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: #111D13;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #415D43;
+}
+
+nav a{
+    margin: 1%;
+    color: #A1CCA5;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:white;
+}
+
+header{
+    background-color: #8FB996;
+}
+
+header h1,h2{
+    margin: 3% 5%;
+    color: #415D43;
+    font-family:monospace;
+}
+
+header img{
+    margin: 0% 5%;
+    height: 70px;
+    width: 120px;
+}
+
+#nosotros{
+    margin: 5% 10% 0% 25%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    color: #A1CCA5;
+}
+
+#nosotros h1{
+    margin: 2% 10%;
+    font-size: 30px;
+}
+
+#nosotros #foto1{
+    grid-area: 1 / 1 / 3 / 3;
+    width: 100%;
+    height: 100%;
+}
+
+#nosotros p{
+    padding: 5%;
+    grid-area: 2 / 2 / 4 / 4;
+    background-color: #415D43;
+}
+
+#nosotros #foto2{
+    grid-area: 3 / 3 / 5 / 5;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+}
+
+#trabajar{
+    background-color: #8FB996;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#trabajar h1{
+    padding: 5% 5% 0 15%;
+    color: #111D13;
+    font-weight: bold;
+    font-size: 30px;
+    flex: 1 0 100%;
+}
+
+#trabajar img{
+    margin: 5% 15% 0%;
+    height: 200px;
+    width:  200px;
+}
+
+#trabajar p{
+    margin: 10%;
+    text-align: center;
+    color:#111D13;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#servicios{
+    padding: 5%;
+    background-color: #415D43;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#servicios h1{
+    color: #A1CCA5;
+    font-weight: bold;
+    font-size: 30px;
+    flex: 1 0 100%;
+}
+
+#servicios img{
+    margin: 5%;
+    height: 200px;
+    width:  200px;
+}
+
+#servicios p{
+    margin: 5%;
+    text-align: center;
+    color:#A1CCA5;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#servicios h2{
+    color: #A1CCA5;
+}
+
+#contacto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #8FB996;
+}
+
+#contacto iframe{
+    padding: 5%;
+    grid-area: 1 / 1 / 1 / 1;
+    flex: 1 0 2%;
+}
+
+#contacto h1{
+    margin: 5%;
+    text-align: center;
+    color: #111D13;
+    font-weight: bold;
+    font-size: 30px;
+    flex: 1 0 5%;
+}
+
+#contacto article{
+    color: #111D13;
+    font-weight: bold;
+    padding: 5%;
+    font-size: 20px;
+    flex: 1 0 5%;
+}
+
+li{
+    margin: 5% 0;
+}
+
+textarea{
+    margin: 5% 0;
+    background-color:#415D43 ;
+    color: #A1CCA5;
+    resize: none;
+    padding: 5%;
+}
+
+input{
+    background-color:#415D43;
+    color: #A1CCA5;
+    height: 25px;
+    width: 50px;
+}
+
+input:hover{
+    background-color:#111D13;
+    color: #A1CCA5;
+}
+
+footer{
+    font-size: 20px;
+    font-weight: bold;
+    color: #A1CCA5;
+    padding: 5%;
+    background-color:#415D43;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer a, footer a:visited{
+    color: #A1CCA5;
+}
+
+footer i{
+    font-size: 25px;
+}
+
+footer i:hover{
+    color: white;
+}
+
+
+
+
